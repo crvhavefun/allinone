@@ -1,0 +1,10 @@
+D:\Projects\shing\AjaxTesting\AjaxTesting\bin\AjaxTesting.dll
+D:\Projects\shing\AjaxTesting\AjaxTesting\bin\AjaxTesting.pdb
+D:\Projects\shing\AjaxTesting\AjaxTesting\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\shing\AjaxTesting\AjaxTesting\obj\Debug\AjaxTesting.dll
+D:\Projects\shing\AjaxTesting\AjaxTesting\obj\Debug\AjaxTesting.pdb
+C:\Documents and Settings\hugowan\桌面\t\allinone\AjaxTesting\AjaxTesting\bin\AjaxTesting.dll
+C:\Documents and Settings\hugowan\桌面\t\allinone\AjaxTesting\AjaxTesting\bin\AjaxTesting.pdb
+C:\Documents and Settings\hugowan\桌面\t\allinone\AjaxTesting\AjaxTesting\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\hugowan\桌面\t\allinone\AjaxTesting\AjaxTesting\obj\Debug\AjaxTesting.dll
+C:\Documents and Settings\hugowan\桌面\t\allinone\AjaxTesting\AjaxTesting\obj\Debug\AjaxTesting.pdb
