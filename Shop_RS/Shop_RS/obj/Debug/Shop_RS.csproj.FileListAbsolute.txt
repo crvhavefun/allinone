@@ -1,0 +1,10 @@
+D:\Projects\shing\Shop_RS\Shop_RS\bin\Shop_RS.dll
+D:\Projects\shing\Shop_RS\Shop_RS\bin\Shop_RS.pdb
+D:\Projects\shing\Shop_RS\Shop_RS\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\shing\Shop_RS\Shop_RS\obj\Debug\Shop_RS.dll
+D:\Projects\shing\Shop_RS\Shop_RS\obj\Debug\Shop_RS.pdb
+C:\Documents and Settings\hugowan\桌面\t\allinone\Shop_RS\Shop_RS\bin\Shop_RS.dll
+C:\Documents and Settings\hugowan\桌面\t\allinone\Shop_RS\Shop_RS\bin\Shop_RS.pdb
+C:\Documents and Settings\hugowan\桌面\t\allinone\Shop_RS\Shop_RS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\hugowan\桌面\t\allinone\Shop_RS\Shop_RS\obj\Debug\Shop_RS.dll
+C:\Documents and Settings\hugowan\桌面\t\allinone\Shop_RS\Shop_RS\obj\Debug\Shop_RS.pdb
