@@ -1,0 +1,22 @@
+D:\Projects\shing\RPS_Utility\RPS_Utility\bin\Debug\RPS_Utility.exe
+D:\Projects\shing\RPS_Utility\RPS_Utility\bin\Debug\RPS_Utility.pdb
+D:\Projects\shing\RPS_Utility\RPS_Utility\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\shing\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.Properties.Resources.resources
+D:\Projects\shing\RPS_Utility\RPS_Utility\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\shing\RPS_Utility\RPS_Utility\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\shing\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.exe
+D:\Projects\shing\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.pdb
+D:\Projects\shing\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.Menu.resources
+D:\Projects\shing\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.UMP.resources
+D:\Projects\shing\RPS_Utility\RPS_Utility\bin\Debug\RPS_Utility.exe.config
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\bin\Debug\RPS_Utility.exe.config
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.exe
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.pdb
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\bin\Debug\RPS_Utility.exe
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\bin\Debug\RPS_Utility.pdb
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.Menu.resources
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.Properties.Resources.resources
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\obj\x86\Debug\RPS_Utility.UMP.resources
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS_Utility\RPS_Utility\obj\x86\Debug\GenerateResource.write.1.tlog
