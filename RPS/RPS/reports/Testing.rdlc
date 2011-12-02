@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=172.16.4.6;Initial Catalog=CRRHKDW</ConnectString>
+        <Prompt>指定資料來源 DataSource1 的使用者名稱和密碼。</Prompt>
+      </ConnectionProperties>
+      <rd:DataSourceID>79296d82-d9f6-4236-951f-26b5716b3625</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="dw_plu">
+          <DataField>dw_plu</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dw_longdesc">
+          <DataField>dw_longdesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="dw_txdate">
+          <DataField>dw_txdate</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="dw_amt">
+          <DataField>dw_amt</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandText>select dw_plu, dw_longdesc, dw_txdate, sum(dw_amt) dw_amt
+from dw_itemds
+where dw_bu = 'CRV' and dw_txdate between '2010-09-01' and '2010-09-05'
+and dw_group6 = '0' and dw_isfreshgoods = '0'
+group by dw_plu, dw_longdesc, dw_txdate
+order by dw_plu, dw_longdesc, dw_txdate</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixCorner>
+          <TablixCornerRows>
+            <TablixCornerRow>
+              <TablixCornerCell>
+                <CellContents>
+                  <Textbox Name="Textbox5">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>dw plu</Value>
+                            <Style>
+                              <FontFamily>Tahoma</FontFamily>
+                              <FontSize>11pt</FontSize>
+                              <FontWeight>Bold</FontWeight>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox5</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>#7292cc</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#4c68a2</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixCornerCell>
+              <TablixCornerCell>
+                <CellContents>
+                  <Textbox Name="Textbox3">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>dw longdesc</Value>
+                            <Style>
+                              <FontFamily>Tahoma</FontFamily>
+                              <FontSize>11pt</FontSize>
+                              <FontWeight>Bold</FontWeight>
+                              <Color>White</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>Textbox3</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>#7292cc</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#4c68a2</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixCornerCell>
+            </TablixCornerRow>
+          </TablixCornerRows>
+        </TablixCorner>
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.98425in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.23622in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="dw_amt">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!dw_amt.Value)</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>dw_amt</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="dw_txdate">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!dw_txdate.Value</GroupExpression>
+                </GroupExpressions>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!dw_txdate.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <TablixHeader>
+                <Size>0.23622in</Size>
+                <CellContents>
+                  <Textbox Name="dw_txdate">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=Fields!dw_txdate.Value</Value>
+                            <Style>
+                              <FontFamily>Tahoma</FontFamily>
+                              <FontWeight>Bold</FontWeight>
+                              <Color>#465678</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>dw_txdate</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>#c6daf8</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#9eb6e4</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember />
+              </TablixMembers>
+            </TablixMember>
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <Group Name="dw_plu">
+                <GroupExpressions>
+                  <GroupExpression>=Fields!dw_plu.Value</GroupExpression>
+                </GroupExpressions>
+              </Group>
+              <SortExpressions>
+                <SortExpression>
+                  <Value>=Fields!dw_plu.Value</Value>
+                </SortExpression>
+              </SortExpressions>
+              <TablixHeader>
+                <Size>0.98425in</Size>
+                <CellContents>
+                  <Textbox Name="dw_plu">
+                    <CanGrow>true</CanGrow>
+                    <KeepTogether>true</KeepTogether>
+                    <Paragraphs>
+                      <Paragraph>
+                        <TextRuns>
+                          <TextRun>
+                            <Value>=Fields!dw_plu.Value</Value>
+                            <Style>
+                              <FontFamily>Tahoma</FontFamily>
+                              <FontWeight>Bold</FontWeight>
+                              <Color>#465678</Color>
+                            </Style>
+                          </TextRun>
+                        </TextRuns>
+                        <Style />
+                      </Paragraph>
+                    </Paragraphs>
+                    <rd:DefaultName>dw_plu</rd:DefaultName>
+                    <Style>
+                      <Border>
+                        <Color>#c6daf8</Color>
+                        <Style>Solid</Style>
+                      </Border>
+                      <BackgroundColor>#9eb6e4</BackgroundColor>
+                      <PaddingLeft>2pt</PaddingLeft>
+                      <PaddingRight>2pt</PaddingRight>
+                      <PaddingTop>2pt</PaddingTop>
+                      <PaddingBottom>2pt</PaddingBottom>
+                    </Style>
+                  </Textbox>
+                </CellContents>
+              </TablixHeader>
+              <TablixMembers>
+                <TablixMember>
+                  <Group Name="dw_longdesc">
+                    <GroupExpressions>
+                      <GroupExpression>=Fields!dw_longdesc.Value</GroupExpression>
+                    </GroupExpressions>
+                  </Group>
+                  <SortExpressions>
+                    <SortExpression>
+                      <Value>=Fields!dw_longdesc.Value</Value>
+                    </SortExpression>
+                  </SortExpressions>
+                  <TablixHeader>
+                    <Size>1.46342in</Size>
+                    <CellContents>
+                      <Textbox Name="dw_longdesc">
+                        <CanGrow>true</CanGrow>
+                        <KeepTogether>true</KeepTogether>
+                        <Paragraphs>
+                          <Paragraph>
+                            <TextRuns>
+                              <TextRun>
+                                <Value>=Fields!dw_longdesc.Value</Value>
+                                <Style>
+                                  <FontFamily>Tahoma</FontFamily>
+                                  <FontWeight>Bold</FontWeight>
+                                  <Color>#4c68a2</Color>
+                                </Style>
+                              </TextRun>
+                            </TextRuns>
+                            <Style />
+                          </Paragraph>
+                        </Paragraphs>
+                        <rd:DefaultName>dw_longdesc</rd:DefaultName>
+                        <Style>
+                          <Border>
+                            <Color>#e6eefc</Color>
+                            <Style>Solid</Style>
+                          </Border>
+                          <BackgroundColor>#c6daf8</BackgroundColor>
+                          <PaddingLeft>2pt</PaddingLeft>
+                          <PaddingRight>2pt</PaddingRight>
+                          <PaddingTop>2pt</PaddingTop>
+                          <PaddingBottom>2pt</PaddingBottom>
+                        </Style>
+                      </Textbox>
+                    </CellContents>
+                  </TablixHeader>
+                  <TablixMembers>
+                    <TablixMember />
+                  </TablixMembers>
+                </TablixMember>
+              </TablixMembers>
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0mm</Top>
+        <Left>0mm</Left>
+        <Height>11.99998mm</Height>
+        <Width>87.17068mm</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>57.15mm</Height>
+    <Style>
+      <Border>
+        <Style>None</Style>
+      </Border>
+    </Style>
+  </Body>
+  <Width>152.4mm</Width>
+  <Page>
+    <PageFooter>
+      <Height>11.43mm</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageFooter>
+    <LeftMargin>25.4mm</LeftMargin>
+    <RightMargin>25.4mm</RightMargin>
+    <TopMargin>25.4mm</TopMargin>
+    <BottomMargin>25.4mm</BottomMargin>
+    <Style />
+  </Page>
+  <rd:ReportID>7d692212-5841-465f-8151-b5a2d0a45145</rd:ReportID>
+  <rd:ReportUnitType>Mm</rd:ReportUnitType>
+</Report>

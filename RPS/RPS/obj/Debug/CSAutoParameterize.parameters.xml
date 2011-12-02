@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="rpsdb-Web.config Connection String" description="rpsdb Connection String used in web.config by the application to access the database." defaultvalue="server=172.16.4.6;database=ReportPlatformDB;uid=rpsdb;pwd=rpsdb1234*" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='rpsdb']/@connectionString" />
+  </parameter>
+  <parameter name="rps-Web.config Connection String" description="rps Connection String used in web.config by the application to access the database." defaultvalue="Provider=SQLOLEDB;Data Source=172.16.4.6;Persist Security Info=True;User ID=rpsdb;Password=rpsdb1234*;Initial Catalog=ReportPlatformDB" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='rps']/@connectionString" />
+  </parameter>
+  <parameter name="crrhkdw-Web.config Connection String" description="crrhkdw Connection String used in web.config by the application to access the database." defaultvalue="Provider=SQLOLEDB;Data Source=172.16.4.6;Persist Security Info=True;User ID=dwroot;Password=root1234*;Initial Catalog=CRRHKDW" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='crrhkdw']/@connectionString" />
+  </parameter>
+  <parameter name="spaceman-Web.config Connection String" description="spaceman Connection String used in web.config by the application to access the database." defaultvalue="Provider=MSDAORA.1;Data Source=168.143.1.219:1522/catman;Persist Security Info=True;User ID=spaceman;Password=spaceman;Unicode=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='spaceman']/@connectionString" />
+  </parameter>
+  <parameter name="crvhk-Web.config Connection String" description="crvhk Connection String used in web.config by the application to access the database." defaultvalue="Provider=MSDAORA.1;Data Source=168.143.1.222/crvhk;Persist Security Info=True;User ID=espos;Password=espos;Unicode=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='crvhk']/@connectionString" />
+  </parameter>
+  <parameter name="hbahk-Web.config Connection String" description="hbahk Connection String used in web.config by the application to access the database." defaultvalue="Provider=MSDAORA.1;Data Source=168.143.1.219:1522/hbahk;Persist Security Info=True;User ID=esposhba;Password=esposhba;Unicode=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hbahk']/@connectionString" />
+  </parameter>
+  <parameter name="cvshk-Web.config Connection String" description="cvshk Connection String used in web.config by the application to access the database." defaultvalue="Provider=MSDAORA.1;Data Source=168.143.1.219:1522/cvshk;Persist Security Info=True;User ID=esposcvs;Password=esposcvs;Unicode=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='cvshk']/@connectionString" />
+  </parameter>
+  <parameter name="ConnectionString-Web.config Connection String" description="ConnectionString Connection String used in web.config by the application to access the database." defaultvalue="Data Source=168.143.1.216/catman;Persist Security Info=True;User ID=spaceman;Password=spaceman;Unicode=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,28 @@
+D:\Projects\shing\RPS\RPS\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\shing\RPS\RPS\bin\RPS.dll
+D:\Projects\shing\RPS\RPS\bin\RPS.pdb
+D:\Projects\shing\RPS\RPS\obj\Debug\RPS.dll
+D:\Projects\shing\RPS\RPS\obj\Debug\RPS.pdb
+D:\Projects\shing\RPS\RPS\obj\Debug\RdlCompile.cache
+D:\Projects\shing\RPS\RPS\obj\Debug\RdlCompile.compiled
+D:\Projects\shing\RPS\RPS\bin\modules\R2402\R240201_HBAQOH.aspx
+D:\Projects\shing\RPS\RPS\bin\modules\R2402\R240201_HBAQOH.aspx.cs
+D:\Projects\shing\RPS\RPS\bin\modules\R2402\R240201_HBAQOH.aspx.designer.cs
+D:\Projects\shing\RPS\RPS\bin\modules\R2401\R240101_HBAIM1.aspx
+D:\Projects\shing\RPS\RPS\bin\modules\R2401\R240101_HBAIM1.aspx.cs
+D:\Projects\shing\RPS\RPS\bin\modules\R2401\R240101_HBAIM1.aspx.designer.cs
+D:\Projects\shing\RPS\RPS\bin\reports\R240201_HBAQOH.rdlc
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\modules\R2401\R240101_HBAIM1.aspx
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\modules\R2402\R240201_HBAQOH.aspx
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\reports\R240201_HBAQOH.rdlc
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\modules\R2401\R240101_HBAIM1.aspx.cs
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\modules\R2401\R240101_HBAIM1.aspx.designer.cs
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\modules\R2402\R240201_HBAQOH.aspx.cs
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\modules\R2402\R240201_HBAQOH.aspx.designer.cs
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\RPS.dll
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\bin\RPS.pdb
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\obj\Debug\RPS.dll
+C:\Documents and Settings\hugowan\桌面\t\allinone\RPS\RPS\obj\Debug\RPS.pdb
