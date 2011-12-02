@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="rpsdb-Web.config Connection String" description="rpsdb Connection String used in web.config by the application to access the database." defaultvalue="server=172.16.4.6;database=ReportPlatformDB;uid=rpsdb;pwd=rpsdb1234*" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='rpsdb']/@connectionString" />
+  </parameter>
+  <parameter name="crrhkdw-Web.config Connection String" description="crrhkdw Connection String used in web.config by the application to access the database." defaultvalue="Provider=SQLOLEDB;Data Source=172.16.4.6;Persist Security Info=True;User ID=dwroot;Password=root1234*;Initial Catalog=CRRHKDW" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='crrhkdw']/@connectionString" />
+  </parameter>
+  <parameter name="CRRHKDWConnectionString-Web.config Connection String" description="CRRHKDWConnectionString Connection String used in web.config by the application to access the database." defaultvalue="Data Source=172.16.4.6;Initial Catalog=CRRHKDW;User ID=dwroot;Password=root1234*" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CRRHKDWConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

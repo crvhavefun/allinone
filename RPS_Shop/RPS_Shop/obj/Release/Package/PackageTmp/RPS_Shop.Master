@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RPS_Shop.master.cs" Inherits="RPS_Shop.RPS_Shop" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>華潤零售報表系統</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <table class="menu" style="width: 100%; position: absolute; top: 0px; left: 0px;">
+        <tr>
+            <td>
+                <asp:Menu ID="Menu1" runat="server" BackColor="#B5C7DE" 
+                    DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Small" 
+                    ForeColor="#284E98" Orientation="Horizontal" StaticSubMenuIndent="10px" 
+                    BorderStyle="Solid" BorderWidth="2px" DisappearAfter="2000" 
+                        StaticEnableDefaultPopOutImage="False" ItemWrap="True" 
+                        RenderingMode="Table">
+                    <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#B5C7DE" />
+                    <DynamicSelectedStyle BackColor="#507CD1" />
+                    <Items>
+                        <asp:MenuItem Text="用戶：" Value="用戶："></asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="#507CD1" />
+                </asp:Menu>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
